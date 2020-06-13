@@ -1,8 +1,3 @@
-'''
-Created on Jun 10, 2020
-
-@author: Benson Liu
-'''
 import tkinter as tk
 from selenium import webdriver
 from time import sleep
