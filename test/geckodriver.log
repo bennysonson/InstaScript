@@ -1,0 +1,68 @@
+1591826801898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\epicc\\AppData\\Local\\Temp\\rust_mozprofileiAJ4Fm"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591826809735	Marionette	INFO	Listening on port 57719
+1591826810288	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591826861425	Marionette	INFO	Stopped listening on port 57719
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591826867292	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\epicc\\AppData\\Local\\Temp\\rust_mozprofilegYNA6z"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591826870071	Marionette	INFO	Listening on port 57779
+1591826870403	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/ff0c1a436c3c.js, line 317: TypeError: this.props is undefined
+1591826897333	Marionette	INFO	Stopped listening on port 57779
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591826943499	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\epicc\\AppData\\Local\\Temp\\rust_mozprofile6lC4Tr"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591826946276	Marionette	INFO	Listening on port 57836
+1591826946622	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/ff0c1a436c3c.js, line 317: TypeError: this.props is undefined
+1591826989823	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\epicc\\AppData\\Local\\Temp\\rust_mozprofile1i7aAN"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591826993213	Marionette	INFO	Listening on port 57897
+1591826993446	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Store does not have a valid reducer. Make sure the argument passed to combineReducers is an object whose values are reducers."
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/ff0c1a436c3c.js, line 317: TypeError: this.props is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 370: UnknownError: IDBDatabase.transaction: Can't start IndexedDB transaction during shutdown
+1591827077887	Marionette	INFO	Stopped listening on port 57897
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591827091027	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\epicc\\AppData\\Local\\Temp\\rust_mozprofile2dUQ6o"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591827093959	Marionette	INFO	Listening on port 57958
+1591827094146	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591827112894	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1591827144224	Marionette	INFO	Stopped listening on port 57958
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1591838899241	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\epicc\\AppData\\Local\\Temp\\rust_mozprofileHSC6qz"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591838902312	Marionette	INFO	Listening on port 58560
+1591838902350	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591838919674	Marionette	INFO	Stopped listening on port 58560
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
