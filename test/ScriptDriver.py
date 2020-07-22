@@ -15,6 +15,7 @@ browser.implicitly_wait(5)
 homePage = HomePage(browser)
 
 loginPage = LoginPage(browser)
+""" Insert login info """
 loginPage.login("", "")
 sleep(3)
 mainFeed = MainFeed(browser)

@@ -31,7 +31,8 @@ class MainFeed:
     def searchAccount(self, text):
         searchBar = self.browser.find_element_by_xpath("//*[@id='react-root']/section/nav/div[2]/div/div/div[2]/input")
         searchBar.send_keys(text)
-        self.browser.find_element_by_xpath("/html/body/div[1]/section/nav/div[2]/div/div/div[2]/div[2]/div[2]/div/a[1]/div").click()
+        sleep(1)
+        self.browser.find_element_by_xpath("//*[@id='react-root']/section/nav/div[2]/div/div/div[2]/div[3]/div[2]/div/a[1]/div/div[1]").click()
         
 class AccountFeed:
     def __init__(self, browser):
@@ -50,7 +51,7 @@ class AccountFeed:
                 print("User has no photos or account is private")
         sleep(1)
         #Like first photo
-        self.browser.find_element_by_xpath("/html/body/div[4]/div[2]/div/article/div[2]/section[1]/span[1]/button").click()
+        self.browser.find_element_by_xpath("/html/body/div[4]/div[2]/div/article/div[3]/section[1]/span[1]/button").click()
 
     def likePhotos(self, maxPics):
         self.likeFirstPhoto()
@@ -59,7 +60,7 @@ class AccountFeed:
                 #Next photo
                 self.browser.find_element_by_xpath("//a[contains(text(),'Next')]").click()
                 #Like photo
-                self.browser.find_element_by_xpath("/html/body/div[4]/div[2]/div/article/div[2]/section[1]/span[1]/button").click()
+                self.browser.find_element_by_xpath("/html/body/div[4]/div[2]/div/article/div[3]/section[1]/span[1]/button").click()
                 sleep(2)
         except NoSuchElementException:
             print("Reached end of profile")
@@ -71,7 +72,7 @@ class AccountFeed:
                 #Next photo
                 self.browser.find_element_by_xpath("//a[contains(text(),'Next')]").click()
                 #Like photo
-                self.browser.find_element_by_xpath("/html/body/div[4]/div[2]/div/article/div[2]/section[1]/span[1]/button").click()
+                self.browser.find_element_by_xpath("/html/body/div[4]/div[2]/div/article/div[3]/section[1]/span[1]/button").click()
                 sleep(2)
         except NoSuchElementException:
             print("End of profile reached")
